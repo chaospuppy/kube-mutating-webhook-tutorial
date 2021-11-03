@@ -1,4 +1,4 @@
-module github.com/morvencao/kube-mutating-webhook-tutorial
+module github.com/chaospuppy/kube-mutating-webhook-tutorial
 
 go 1.13
 

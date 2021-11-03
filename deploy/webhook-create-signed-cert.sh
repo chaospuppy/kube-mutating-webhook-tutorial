@@ -48,7 +48,7 @@ done
 
 [ -z "${service}" ] && service=sidecar-injector-webhook-svc
 [ -z "${secret}" ] && secret=sidecar-injector-webhook-certs
-[ -z "${namespace}" ] && namespace=default
+[ -z "${namespace}" ] && namespace=sidecar-injector
 
 if [ ! -x "$(command -v openssl)" ]; then
     echo "openssl not found"
